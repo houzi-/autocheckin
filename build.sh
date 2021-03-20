@@ -11,13 +11,13 @@ CHANGELOG="修正更新"
 DIR="$( cd "$( dirname "$BASH_SOURCE[0]" )" && pwd )"
 
 # now include build_base.sh
-. $DIR/../softcenter/build_base.sh
+. $DIR/local-build.sh
 
 # change to module directory
 cd $DIR
 
 # do something here
 
-do_build_result
+#do_build_result
 
-sh backup.sh $MODULE
+#sh backup.sh $MODULE
